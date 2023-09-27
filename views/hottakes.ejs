@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <i class="fa-solid fa-fire-flame-curved"></i>
+    <h1 class="display-3">You've Discovered My Hot Take!</h1><br>
+    <p class="secret-text">Emilia is the best girl.</p>
+    <hr>
+    
+    <form style="display:inline;" action="/logout" method="post">
+      <button class="btn btn-light btn-lg" type="submit">Log Out</button>
+    </form>
+    <a class="btn btn-dark btn-lg" style="margin-left:5%;" href="/submit" role="button">Submit a Secret</a>
+  </div>
+</div>
+
+<%- include('partials/footer') %>
